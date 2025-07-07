@@ -5,6 +5,8 @@
 **License:** For educational and authorized security testing only.
 
 ---
+![Screenshot 2025-07-07 112313 - Copy_LI](https://github.com/user-attachments/assets/c621aee6-9c56-4e11-9f8d-d314cf91a0e3)
+
 
 ## 🔍 About
 
