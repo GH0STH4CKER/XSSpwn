@@ -1,7 +1,7 @@
 # XSSPwn - Reflected XSS Detection & Simulation Tool
 
 **Author:** GH0STH4CKER  
-**Version:** 1.0  
+**Version:** 1.1  
 **License:** For educational and authorized security testing only.
 
 ---
