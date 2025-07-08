@@ -32,7 +32,7 @@ It uses a third-party API to safely analyze the target for XSS vulnerabilities.
 - ✅ Simulates cookie stealing, keylogging, and alert box attacks
 - ✅ Generates encoded malicious URLs for testing
 - ✅ Colorful, user-friendly terminal output
-- ✅ Works with webhook services like [webhook.site](https://webhook.site)
+- ✅ Works with webhook services like: [webhook.site](https://webhook.site) [webhook-test.com](https://webhook-test.com/) [webhook.cook](https://webhook.cool/)
 
 ---
 
