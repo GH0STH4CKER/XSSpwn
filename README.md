@@ -28,7 +28,7 @@ It uses a third-party API to safely analyze the target for XSS vulnerabilities.
 
 ## 💡 Features
 
-- ✅ Detects reflected XSS using `check4xss.vercel.app` API
+- ✅ Detects reflected XSS using `check4xss.vercel.app` API (also mine)
 - ✅ Simulates cookie stealing, keylogging, and alert box attacks
 - ✅ Generates encoded malicious URLs for testing
 - ✅ Colorful, user-friendly terminal output
